@@ -1,0 +1,26 @@
+{
+  "name": "updating-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.1.0",
+    "electron-builder": "^22.7.0"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "electron-updater": "^4.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bhanuka94/myElectronUpdater.git"
+  }
+}
